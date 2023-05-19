@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Striata <striatashop@hotmail.com>'
 description 'striata anti limbo (Striata shop)'
-version '1.0'
+version '1.01'
 
 lua54 'yes'
 
