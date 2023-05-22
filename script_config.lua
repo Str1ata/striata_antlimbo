@@ -11,6 +11,10 @@ if GetCurrentResourceName() == "striata_resources" then
                 "striata:limboDetected",
             },
 
+            blacklistZones = {
+                { zone = vector3(229.05,-991.04,-98.99), distance = 30 },
+            },
+
             blackListVehicleClass = {  -- Lista de veiculos que não serão detectados.
                 -- 0, -- Compacts  
                 -- 1, -- Sedans  
@@ -61,6 +65,10 @@ elseif GetCurrentResourceName() == "striata_antlimbo" then
 
     Config.limboServerEvents = {  -- Adicione eventos do server, esses eventos serão acionados ao cair no limbo.
         "striata:limboDetected",
+    }
+
+    Config.blacklistZones = {
+        { zone = vector3(229.05,-991.04,-98.99) ,distance = 30 }
     }
 
     Config.blackListVehicleClass = {  -- Lista de veiculos que não serão detectados.
