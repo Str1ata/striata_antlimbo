@@ -3,16 +3,18 @@ game 'gta5'
 
 author 'Striata <striatashop@hotmail.com>'
 description 'striata anti limbo (Striata shop)'
-version '1.3'
+version '1.4'
 
 lua54 'yes'
 
 client_scripts {
-	"script_config.lua",
 	"client.lua"
 }
 
 server_scripts {
-	"script_config.lua",
 	"server.lua"
+}
+
+files {
+	"script_config.json"
 }

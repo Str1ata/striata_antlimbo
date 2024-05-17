@@ -1,0 +1,39 @@
+{
+    "scriptConfig": {
+
+        "language": "pt-BR",
+                
+        "notifysTypes": {
+            "success": "sucesso",
+            "denied": "negado",
+            "warning": "aviso",
+            "important": "importante"
+        },
+
+        "limboClientEvents": [
+            "striata:limboDetected"
+        ],
+
+        "limboServerEvents": [
+            "striata:limboDetected"
+        ],
+
+        "blacklistZones": [
+            { "zone": [229.05,-991.04,-98.99], "distance": 30.0 }
+        ],
+
+        "blackListVehicleClass": [14,15,16]
+    },
+
+    "languagePTBR": {
+        "notifys": {
+            "limboDetected": "Limbo detectado! Procurando um ponto seguro, aguarde..."
+        }
+    },
+
+    "languageENUS": {
+        "notifys": {
+            "limboDetected": "Limbo detected! Limbo detected! Looking for a safe spot, wait..."
+        }
+    }
+}
